@@ -14,14 +14,12 @@ public class GPSDataConverter {
 
 	public static int toSeconds(String timestr) {
 		
-		int secs;
+		int secs = 0;
 		int hr, min, sec;
-		
 		// TODO
 		// OPPGAVE - START
-		
-		throw new UnsupportedOperationException(TODO.method());
 
+		return secs;
 		// OPPGAVE - SLUTT
 		
 	}
