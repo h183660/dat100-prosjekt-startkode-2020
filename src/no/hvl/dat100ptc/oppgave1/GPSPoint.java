@@ -9,7 +9,7 @@ public class GPSPoint {
 	private double latitude;
 	private double longitude;
 	private double elevation;
-		
+
 	public GPSPoint(int time, double latitude, double longitude, double elevation) {
 		// TODO - konstruktur
 		this.time = time;
@@ -29,7 +29,7 @@ public class GPSPoint {
 	}
 
 	public double getLatitude() {
-		return latitude;		
+		return latitude;
 	}
 
 	public void setLatitude(double latitude) {
@@ -51,11 +51,11 @@ public class GPSPoint {
 	public void setElevation(double elevation) {
 		this.elevation = elevation;
 	}
-	
+
 	public String toString() {
-		
+
 		String str;
-		str = time + " (" + latitude + "," + longitude + ") " + elevation + "\n";	
+		str = time + " (" + latitude + "," + longitude + ") " + elevation + "\n";
 		return str;
 	}
 }
